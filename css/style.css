@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Web Design Project
+Version:	1.0
+Last change:	20/10/2021
+Assigned to:	All
+Primary use:	Open Source
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[LAYOUT]
+
+* body
+    + Header / header
+	+ Page Content / .page-content .name-page
+        + Section Layouts / section .name-section
+        ...
+	+ Footer / footer
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+# Text Color (text): 
+# Text Color Deep (Text, title): 
+
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+Also Remember To Section Your Styles With Comments so we will all know what you did
+and which section it affects
+
+VERY IMPORTANT
+There will be a general styling so if it will be used everywhere let us know
+-------------------------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*                   GENERAL                           */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*                   GALLERY                           */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*                   FAQs                           */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*                   Responsive Design                 */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
