@@ -200,6 +200,11 @@ height: 100%;
     background-image: url('../img/image5.jpg');
     background-color: rgba(35, 5, 77, 0.4);
 }
+.title{
+    text-align: center;
+    padding: 25px;
+    font-size: 2rem;
+}
 /*-----------------------------------------------------*/
 /*-----------------------------------------------------*/
 /*                   GALLERY                           */
