@@ -133,7 +133,72 @@ body{
     border-top: solid 1px #333;
 }
 .container{
-height: 100vh;
+height: 100%;
+}
+.banner1{
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+}
+.banner1 .banner1-sub{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.banner1 .banner1-sub h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.banner1 .banner1-sub h4{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.banner1 .banner1-sub a{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.category-male,
+.category-female{
+    width: 45%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.category-male h1,
+.category-female h1{
+    color: #fff;
+    font-size: 4rem;
+}
+.category-female{
+    background-image: url('../img/image1.jpg');
+    background-color: rgba(118, 30, 236, 0.4);
+}
+
+.category-male{
+    background-image: url('../img/image5.jpg');
+    background-color: rgba(35, 5, 77, 0.4);
 }
 /*-----------------------------------------------------*/
 /*-----------------------------------------------------*/
